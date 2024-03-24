@@ -157,44 +157,7 @@ body {
     animation: box-hover 0.2s ease-in-out;
   }
   
-  @keyframes list-hover {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.05); /* Slightly scale up on hover */
-    }
-  }
-  
-  @keyframes box-hover {
-    from {
-      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-    }
-    to {
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px 1px; /* Enhance box-shadow on hover */
-    }
-  }
-  .box {
-    animation: box-appear 0.5s ease-in-out forwards;
-  }
-  
-  .box:nth-child(odd) {
-    animation-delay: 0.1s; /* Delay for odd numbered boxes */
-  }
-  
-  .box:nth-child(even) {
-    animation-delay: 0.2s; /* Delay for even numbered boxes */
-  }
-  
-  @keyframes box-appear {
-    from {
-      opacity: 0;
-      transform: scale(0.9); /* Scale boxes down slightly initially */
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
+
+
     
   
